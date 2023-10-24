@@ -1,0 +1,33 @@
+{
+  "type": "module",
+  "scripts": {
+    "build": "npx remix build",
+    "serve": "npx remix-serve build/index.js",
+    "vite": "vite dev"
+  },
+  "dependencies": {
+    "@remix-run/cloudflare": "0.0.0-experimental-b5b8702c4",
+    "@remix-run/cloudflare-pages": "0.0.0-experimental-b5b8702c4",
+    "@remix-run/css-bundle": "0.0.0-experimental-b5b8702c4",
+    "@remix-run/react": "0.0.0-experimental-b5b8702c4",
+    "@remix-run/node": "^2.1.0",
+    "react-refresh": "^0.14.0",
+    "isbot": "^3.6.8",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20230518.0",
+    "@remix-run/dev": "/Users/dario/Repos/my-repos/remix/build/node_modules/@remix-run/dev",
+    "@remix-run/eslint-config": "0.0.0-experimental-b5b8702c4",
+    "@types/react": "^18.2.20",
+    "@types/react-dom": "^18.2.7",
+    "eslint": "^8.38.0",
+    "typescript": "^5.1.0",
+    "vite": "^4.5.0",
+    "wrangler": "^3.1.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
