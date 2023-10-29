@@ -4,8 +4,12 @@ import { defineConfig } from "vite";
 export default defineConfig({
   plugins: [remix({
     cloudflare: {
-      pages: {
-        // the bindings go here
+      pages: true,
+      devBindings: {
+        textBindings: {
+          SECRET_KEY: 'my-secret-key--from-dev'
+        },
+        kvNamespaces: ['MY_KV']
       }
     }
   })],
